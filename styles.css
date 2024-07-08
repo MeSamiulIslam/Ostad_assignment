@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('jungle-plants.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 10px 0 5px;
+    font-size: 24px;
+    color: #2e7d32;
+}
+
+h4 {
+    margin: 5px 0 15px;
+    font-size: 18px;
+    color: #388e3c;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.social-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.social-info div {
+    text-align: center;
+}
+
+.social-info span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+social-info p {
+    font-size: 12px;
+    color: #388e3c;
+    margin: 5px 0 0;
+}
+
+.buttons button {
+    background: #2e7d32;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+.buttons button:first-child {
+    background: #388e3c;
+}
+
+.buttons button:hover {
+    opacity: 0.8;
+}
